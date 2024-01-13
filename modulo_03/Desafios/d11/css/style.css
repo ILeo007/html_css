@@ -36,7 +36,8 @@ section {
     line-height: 2em;
 }
 
-.normal > h3{
+.normal > p{
+    background-color: #00000039;
     
 }
 
