@@ -7,6 +7,12 @@
     padding: 0px;
 }
 
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header {
     padding: 50px;
     background-color: #000000;
@@ -18,34 +24,44 @@ header > h1 {
     font-family: 'Passion One', sans-serif;
     font-size: 10vw;
     letter-spacing: 5px;
+    font-variant: small-caps;
 }
 
-.cabe {
+header a, footer a {
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: bolder;
 }
 
 a:hover {
     text-decoration: underline;
+
 }
 
 section {
-    padding: 10px;
-    text-align: justify;
-    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
 }
 
-.normal > p{
-    max-width: 300px;
-    background-color: #00000039;
-    
+.normal {
+    background-color: white;
 }
 
-
-.imagem01 {
-    background-image: url(imagens/background001.jpg);
+.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
 }
-.imagem02{
-    background-image: url(imagens/background002.jpg);
+
+.imagem > p {
+    width: 400px;
+    background-color: #00000023;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
