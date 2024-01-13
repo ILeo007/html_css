@@ -20,7 +20,7 @@ header > h1 {
     letter-spacing: 5px;
 }
 
-a {
+.cabe {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -37,6 +37,7 @@ section {
 }
 
 .normal > p{
+    max-width: 300px;
     background-color: #00000039;
     
 }
