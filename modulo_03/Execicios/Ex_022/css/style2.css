@@ -5,6 +5,7 @@ body {
 table { 
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td,th {
@@ -17,6 +18,12 @@ thead,tfoot {
     color: white;
 }
 
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
 .num{
     text-align: right;
 }
@@ -25,4 +32,13 @@ caption {
     font-weight: bold;
     padding: 10px;
     background-color: lightgray;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgray;
+
+}
+
+tbody > tr:nth-child(even) {
+    background-color: white;
 }
