@@ -46,3 +46,62 @@ img {
 #print {display: none;}
 #pc {display: none;}
 #tv {display: none;}
+
+@media print { /*IMPRESSÂO*/
+    main {
+        border: 2px solid black;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main > h1{
+        text-shadow: none;
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /*TABLET*/
+    body {
+        background: url(../imagens/back-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    #phone {display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*DESKTOP*/
+    body {
+        background: url(../imagens/back-pc.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+
+    
+}
+
+@media screen and (min-width: 1200px) { /*GRANDES TELAS*/
+    body {
+        background: url(../imagens/back-tv.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+
+}
