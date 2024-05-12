@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+}
+
+body {
+    background-color: rgb(154, 101, 203);
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 5px black;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+}
+
+img.lado {
+    float: right;
+    height: 65px;
+}
